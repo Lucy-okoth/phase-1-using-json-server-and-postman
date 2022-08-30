@@ -1,14 +1,21 @@
+
+
 {
-  "articles": [
+  "posts": [
     {
       "id": 1,
-      "title": "Example Article",
-      "content": "This is an example."
-    },
-    {
-      "id": 2,
-      "title": "Second Article",
-      "content": "This is also an example."
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
